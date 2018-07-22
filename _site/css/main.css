@@ -59,9 +59,26 @@ a {
 /* HEADER STYLES */
 .header-nav {
   float: right;
+  padding: 5.5vh 60px 0 0;
 }
 .header-nav > li {
   display: inline-block;
+  margin-left: 1em;
+}
+.header-nav a {
+  color: #000;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.header-nav a:hover,
+.header-nav a:active {
+  color: #ed6e2f;
+}
+.header-logo:hover,
+.header-logo:active {
+  opacity: 0.5;
 }
 
 /* HERO STYLES */
@@ -88,6 +105,10 @@ a {
   vertical-align: middle;
   width: 2.5em;
 }
+.social-link a:hover,
+.social-link a:active {
+background-color: #f00;
+}
 .social-list {
   list-style: none;
   padding: 0;
@@ -107,7 +128,7 @@ a {
 }
 .bio-box {
   border: 1px solid black;
-  border-color: black black blue;
+  border-color: black black red;
   box-sizing: border-box;
   float: left;
   font-size: 1rem;
