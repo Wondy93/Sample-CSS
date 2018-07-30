@@ -161,7 +161,7 @@ h2 ~ p {
   padding-top: 10vh;
 }
 .hero-home {
-  background-image: url(Test/images/shark.jpg);
+  background-image: url(/Test/images/shark.jpg);
   background-position: center top;
 }
 .hero-content {
